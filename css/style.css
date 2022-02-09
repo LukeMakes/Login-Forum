@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: local("../font/Ubuntu-Regular.ttf");
+  }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,10 +21,12 @@
 }
 .login-container{
     background-color: rgba(0, 20, 31, 0.6);
+    font-family: Ubuntu, sans-serif;
     padding: 50px 30px;
     min-width: 400px;
     width: 50%;
     max-width: 600px;
+    border-radius: 10px;
 }
 
 .title{
